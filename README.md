@@ -35,23 +35,24 @@ in current US dollars, and remittances as a percentage of GDP, spanning
 
 ## Project Structure
 
-nepal-remittance-economic-tracker/
+## Project Structure
 
 ```
+nepal-remittance-economic-tracker/
 │
 ├── data/
-│ └── remittance_by_year.csv        # Raw data from World Bank
+│   └── remittance_by_year.csv        # Raw data from World Bank
 │
 ├── sql/
-│ ├── 01_create_and_load.sql       # CREATE TABLE + INSERT statements
-│ └── 02_window_functions.sql      # RANK, LAG, Running Total, CTE queries
+│   ├── create_load.sql                # CREATE TABLE + INSERT statements
+│   └── window_functions.sql           # RANK, LAG, Running Total, CTE queries
 │
-├── analysis.py                    # Python: MySQL connection + visualizations
+├── analysis.py                        # Python: MySQL connection + visualizations
 │
 ├── visuals/
-│ ├── remittance_trend.png          # Line chart: remittance growth over time
-│ ├── remittance_pct_gdp.png        # Bar chart: remittance as % of GDP
-│ └── yoy_change.png                # Bar chart: year-over-year % change
+│   ├── remittance_trend.png          # Line chart: remittance growth over time
+│   ├── remittance_pct_gdp.png        # Bar chart: remittance as % of GDP
+│   └── yoy_change.png                # Bar chart: year-over-year % change
 │
 └── README.md
 ```
