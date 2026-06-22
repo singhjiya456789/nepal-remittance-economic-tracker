@@ -54,7 +54,9 @@ plt.figure(figsize=(12, 6))
 colors = ['green' if x >= 0 else 'red' for x in df['yoy_change']]
 plt.bar(df['yr'], df['yoy_change'], color=colors)
 
-plt.title('Nepal Remittance: Year-over-Year % Change (1994–2024)', fontsize=14, fontweight='bold')
+plt.title('Nepal Remittance: Year-over-Year % Change (1994–2024)', 
+          fontsize=14, 
+          fontweight='bold')
 plt.xlabel('Year')
 plt.ylabel('% Change from Previous Year')
 plt.axhline(y=0, color='black', linewidth=0.8)
