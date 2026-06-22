@@ -35,8 +35,6 @@ in current US dollars, and remittances as a percentage of GDP, spanning
 
 ## Project Structure
 
-## Project Structure
-
 ```
 nepal-remittance-economic-tracker/
 │
@@ -143,3 +141,4 @@ Charts will be saved automatically to the `visuals/` folder.
 - 🎓 Computer Engineering Student | Purwanchal University, Nepal
 - 💡 Aspiring Data Scientist
 - GitHub: [singhjiya456789](https://github.com/singhjiya456789)
+- LinkedIn: www.linkedin.com/in/jiya-rajput
