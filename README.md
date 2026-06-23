@@ -159,5 +159,5 @@ Charts will be saved automatically to the `visuals/` folder.
 
 - 🎓 Computer Engineering Student | Purwanchal University, Nepal
 - 💡 Aspiring Data Scientist
-- GitHub: [singhjiya456789](https://github.com/singhjiya456789)
+- GitHub: [singhjiya456789](https://github.com/Jiya-DS)
 - LinkedIn: www.linkedin.com/in/jiya-rajput
