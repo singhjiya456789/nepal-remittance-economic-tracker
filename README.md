@@ -51,7 +51,8 @@ nepal-remittance-economic-tracker/
 │   ├── remittance_trend.png          # Line chart: remittance growth over time
 │   ├── remittance_pct_gdp.png        # Bar chart: remittance as % of GDP
 │   └── yoy_change.png                # Bar chart: year-over-year % change
-│
+│   ├── distributions.png             # Histogram: distribution of remittance values
+│   └── correlation.png               # Scatter plot: remittance USD vs % of GDP
 └── README.md
 ```
 
